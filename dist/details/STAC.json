@@ -1,0 +1,1 @@
+{"STACKED001'; UPDATE TUSUARIO SET DES_SENHA='hacked' WHERE COD_USUARIO=1; --":{"events":[],"polygons":[]},"STACKED002'; SELECT @@version AS val INTO #tmp; --":{"events":[],"polygons":[]}}

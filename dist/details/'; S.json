@@ -1,0 +1,1 @@
+{"'; SET @q=0x4142; --":{"events":[],"polygons":[]},"'; SET @q=0x4142; EXECUTE sp_executesql @q; --":{"events":[],"polygons":[]}}

@@ -1,0 +1,3 @@
+@govbr-ds/core 3.7.0
+https://www.gov.br/ds/
+https://www.npmjs.com/package/@govbr-ds/core
