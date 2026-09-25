@@ -136,7 +136,7 @@ Os arquivos JSON dos experimentos guardam métricas e limitações. O SQLite con
 
 ## Ampliação: todas as rodadas e estoque completo
 
-A interface passa a se chamar **MinerIA — Inteligência para a Gestão de Leilões Minerais**. A visão geral começa pelos lances vencedores acumulados e organiza as rodadas da 8ª à 1ª. O acumulado é calculado em ordem cronológica e apenas apresentado em ordem inversa. Os valores são nominais e não comprovam pagamentos.
+A interface passa a se chamar **MinerIA — Inteligência para a Gestão de Leilões Minerais**. A visão geral começa pelos lances vencedores acumulados e organiza as rodadas da 1ª à 8ª. O acumulado é calculado em ordem cronológica e apresentado em ordem cronológica. Os valores são nominais e não comprovam pagamentos.
 
 As oito rodadas permanecem visíveis: a 6ª possui avaliação social, a 7ª está cancelada e não recebe métricas financeiras iguais a zero. A exploração tem filtros específicos de processo (DSProcesso) e substância, além da busca livre, do estado, município e resultado. O DSProcesso usa seis dígitos antes da barra, completados com zeros à esquerda, e ano de quatro dígitos: `000.000/0000`.
 
@@ -161,7 +161,7 @@ A atualização foi agendada diariamente às 8h no aplicativo. Depende do comput
 
 ## Revisão visual e leitura das rodadas especiais
 
-O nome da interface passa a ser **MinerIA**, com IA em destaque e subtítulo “Inteligência para a gestão de leilões minerais”. O gráfico usa barras para o acréscimo de cada rodada e uma linha para o total acumulado, na mesma escala em reais. A apresentação mantém a ordem da 8ª à 1ª; o cálculo do acumulado permanece cronológico, da 1ª até cada rodada.
+O nome da interface passa a ser **MinerIA**, com IA em destaque e subtítulo “Inteligência para a gestão de leilões minerais”. O gráfico usa barras para o acréscimo de cada rodada e uma linha para o total acumulado, na mesma escala em reais. A apresentação mantém a ordem da 1ª à 8ª; o cálculo do acumulado permanece cronológico, da 1ª até cada rodada.
 
 A 6ª rodada foi destinada à Permissão de Lavra Garimpeira e utilizou avaliação social para definir prioridade de requerimento, por critérios objetivos. Requerimento não equivale a título concedido. A notícia oficial de lançamento descreve a modalidade e critérios: https://www.gov.br/anm/pt-br/anm-lanca-sexta-rodada-de-oferta-publica-de-areas-para-mineracao
 
