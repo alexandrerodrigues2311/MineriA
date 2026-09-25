@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "rules": {
+    "OURO": "Ouro",
+    "MINERIO DE OURO": "Ouro",
+    "FERRO": "Minério de ferro",
+    "MINERIO DE FERRO": "Minério de ferro"
+  },
+  "area_round_label_mentions": {
+    "MINÉRIO DE FERRO": 1925,
+    "MINÉRIO DE OURO": 3119,
+    "OURO": 324,
+    "FERRO": 8
+  },
+  "stock_label_mentions": {
+    "MINÉRIO DE OURO": 17538,
+    "MINÉRIO DE FERRO": 8125,
+    "OURO": 6941,
+    "FERRO": 201
+  },
+  "scope": "Camada de consulta, busca, filtros e apresentação; dados brutos e modelos preservados."
+}

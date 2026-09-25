@@ -34,7 +34,7 @@ async function loadCompressedDetails(bucket){
  if(bytes[0]===31&&bytes[1]===139){
   if(typeof DecompressionStream==='undefined')throw Error('Atualize o navegador para carregar os detalhes compactados');
   const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));
-  return JSON.parse(await new Response(stream).text());
+  return normalizeMinerals(JSON.parse(await new Response(stream).text()),'details/'+bucket+'.json');
  }
- return JSON.parse(new TextDecoder().decode(bytes));
+ return normalizeMinerals(JSON.parse(new TextDecoder().decode(bytes)),'details/'+bucket+'.json');
 }
