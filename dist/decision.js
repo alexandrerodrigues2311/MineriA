@@ -8,8 +8,7 @@ async function ensureAreas(){
     for(let i=0;(!data||!overviewData)&&i<100;i++)await new Promise(r=>setTimeout(r,100));
     if(!data||!overviewData)throw Error('A base de resumo não carregou. Use Verificar nova versão.');
     const revision=overviewData.areas_revision;
-    const response=await fetch('areas.json?v='+revision);if(!response.ok)throw Error('Falha ao carregar áreas.');
-    const rows=await response.json();if(rows.length!==overviewData.total_included)throw Error('Versões incompatíveis. Verifique a atualização.');
+    const rows=await fastJSON('areas.json?v='+revision);if(rows.length!==overviewData.total_included)throw Error('Versões incompatíveis. Verifique a atualização.');
     data.rows=rows;overviewData.rows=rows;window.areasRevision=revision;window.areasReady=true;
     const uf=$('state').value;$('state').innerHTML='<option value="">Todos os estados</option>'+[...new Set(rows.map(r=>r.u))].sort().map(s=>`<option>${esc(s)}</option>`).join('');$('state').value=uf;
     render();refreshInsights();$('status').textContent='';

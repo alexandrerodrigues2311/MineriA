@@ -1,4 +1,4 @@
-@import url('https://cdngovbr-ds.estaleiro.serpro.gov.br/design-system/fonts/rawline/css/rawline.css');
+
 /* One typography scale, from the bundled official gov.br core tokens. */
 :root{--mineria-body:var(--font-size-scale-up-01,16.8px);--mineria-control:var(--font-size-scale-base,14px);--mineria-h3:var(--font-size-scale-up-02,20.16px);--mineria-h2:var(--font-size-scale-up-03,24.192px);--mineria-h1:var(--font-size-scale-up-04,29.036px)}
 body,button,input,select,textarea,h1,h2,h3,.kpis strong{font-family:var(--font-family-base,Rawline),Rawline,'Segoe UI',Arial,sans-serif}
