@@ -1,0 +1,53 @@
+{
+  "snapshot": "2026-09-24",
+  "observations": 21175,
+  "sets": {
+    "basico": 4,
+    "historico": 1045,
+    "territorial": 1051
+  },
+  "sha256": {
+    "ambiente.json": "c35556b1c91b67e4e0628a943f71b78b6657b0534e29adca3fdf350dd2327d79",
+    "codigo_original/build_dashboard_data.py": "bae24bf753946f9a3fb7e3bb50c1a32fb6470491549e07cf8c1e3421065c3f51",
+    "codigo_original/build_database.py": "6071c7d3d6a299f084eb43c3c3c81450b420fe8fbca1411d4e03f8442e68f97a",
+    "codigo_original/build_details.py": "f15b611676ddcb9508bf89f7340f52a914f3d321a104ea6197eab4d23846305d",
+    "codigo_original/build_overview.py": "ff7facfcdbb8510c3e28aad92799d644140dffc18366ab212b8075c5cbdfc5e7",
+    "codigo_original/build_stock.py": "5122d4139f88a591c35e085b6d208bab6781d8cdf5ec54946ea24f1f01875485",
+    "codigo_original/download_complementary.py": "28196ae91ab1161d5e2ac7629b9c05236d4ea27ed8a506e8106daeb259f478dc",
+    "codigo_original/experiment_ml.py": "a70ccd551030e27bde2fc526cf10694d3ec42bd988fa2b2a142500ad0e0c4d21",
+    "codigo_original/experiment_v2.py": "69492c205f3a15aada96d6dc1bde2c05f7554b425466eafef78f45a3b0edf6b9",
+    "codigo_original/geo_extract.py": "a9b6d3b1e3d25db9cbf58046dea13492e2e4c356c987bea599131ce72a32e03d",
+    "codigo_original/integrate_scm.py": "25bf5a872f66cf4c687eeaf1c6c9cc9cfc9495d072b4118b070801d9702dacb0",
+    "codigo_original/prepare_context.py": "e2eb1051752b5f63ec08f0f0297456a2304a1494d0e40b7545c08910c03e3381",
+    "codigo_original/round_changes.py": "f9af6a24787b8e05c6bf653fc3a8186e1f36aabaebf387e9a18d254cb723b55f",
+    "codigo_original/update_pipeline.py": "3811a2f583f14feb43fa80a46efede3c28d3109a2966f3d861fcf402acd18932",
+    "dados/experimento_congelado.json.gz": "ffb6a3b076e46a428541451e2c39c833b9845e9ae205938a1c87d68a0c514dd9",
+    "dados/ipca.json": "7b9664ae8ee29cba08193b28589e9effc1fb4b01931e61322cc060c64b4bf192",
+    "FICHA_DO_MODELO.md": "48a6034030fc12e8377f0c7bb56d99eaf1fb69a71d26a0618adf43818b4eacd1",
+    "FONTES.md": "74462c621367086075fcdd3b55462c8218ed23dd76526e5205c116c783d69fdf",
+    "interface/app.js": "eb6f8e06715d723705c6c5ce3f6503973d58d4212e454540835a627f919e47ca",
+    "interface/geolance.css": "434c1c1c5e746596c377f7973ea97aad49043a3306f073974c710c5d43bbda8f",
+    "interface/geolance.js": "00bf54ec56455881c4713c6d36732736855f5b300ea78970bc42f2c99f4a4cba",
+    "interface/index.html": "6090e48013aa13496b00671c220dc74000e23b5a32f7527fbf21ccb25d4ef3b4",
+    "interface/insights.js": "386c0711d1783ebc74b81cd963a7f7a8afde49cf79ad25366cec807b19960cc4",
+    "interface/styles.css": "f90f4130ffe987cea967d9b84f3900459c285cd245deb245da35419d8187cf35",
+    "README.md": "7693ea9c10817e5c6c49f0b3acd59c49efc0142d0a813a1d1653b3a1a0804aa3",
+    "reproduzir.py": "2181207f2ef7974fb8326ea805a5c819bdc0b31f9f973647a34d7c336591781b",
+    "requirements.txt": "975eba2486b8d21f3cd0a065d61de47700b9ef84602cf509dceed32d2f3f0c0d",
+    "resultados_referencia/experimento_ml.json": "6c35f0fffdb891414c0d91a76a3cfbb90d05137472b38f206d456b8fc8da98fe",
+    "resultados_referencia/experimento_ml_v2.json": "852426bc878f88fb9fc66301e9ef498848c5abd950c29db9e8fad47b69490c8e",
+    "resultados_referencia/inventario_base_integrada.json": "404846956a8d7c0ff7651aedd4d7625c5b47ba5fe067821a8288fe8cc1704a06",
+    "resultados_referencia/mudancas_rodadas.json": "0da2618aecbafef4f60c1e05da0576f2aeea348111b9f75e8a7e3ceb520c7460",
+    "resultados_referencia/verificacao_painel.json": "d88909f7b4ac2dc723671313474f2d5c94bb58451b65f648b441106ea8dedc59",
+    "variaveis_expandidas.csv": "d9ca80a55b6198b867376aa6381495e752b0de02073129c6d9e18009fdba476a"
+  },
+  "notes": [
+    "Features are frozen historical reconstruction, not point-in-time proven public data.",
+    "No participant names, CPF/CNPJ or holder identifiers. Counts of historical holders only.",
+    "Exact model input snapshot supports independent metric reproduction without redownloading revised source data."
+  ],
+  "final_encoded_columns": {
+    "classifier": 31,
+    "regressor": 834
+  }
+}
