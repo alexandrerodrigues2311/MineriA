@@ -1,1 +1,0 @@
-{"SUBQ003' + (SELECT CASE WHEN 1=1 THEN (SELECT COUNT(*) FROM sys.tables) ELSE 0 END) + '":{"events":[],"polygons":[]}}

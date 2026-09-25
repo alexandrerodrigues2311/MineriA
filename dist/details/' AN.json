@@ -1,1 +1,0 @@
-{"' AND 1=CAST('Ztestx' AS int)--":{"events":[],"polygons":[]},"' AND 1=CONVERT(int,(SELECT @@version))--":{"events":[],"polygons":[]},"' AND 1=CONVERT(int,(SELECT DB_NAME()))--":{"events":[],"polygons":[]},"' AND 1=CONVERT(int,'Ztestx')--":{"events":[],"polygons":[]}}
