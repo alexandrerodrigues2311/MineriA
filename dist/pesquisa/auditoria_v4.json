@@ -1,0 +1,20 @@
+{
+  "note": "Auditoria posterior a selecao, sem trocar modelos. Regra de menor area e sensibilidade de empates acrescentadas como referencias, nao como novos candidatos.",
+  "train_n": 16223,
+  "test_n": 4950,
+  "disjoint_processes": true,
+  "ranking": {
+    "lance_positivo": {
+      "model_ties_random": 0.794949494949495,
+      "uf_ties_random": 0.8138760256722724,
+      "large_area_ties_random": 0.7414141414141414,
+      "small_area_ties_random": 0.48040404040404044
+    },
+    "livre": {
+      "model_ties_random": 0.32525252525252524,
+      "uf_ties_random": 0.3290855575623787,
+      "large_area_ties_random": 0.18686868686868688,
+      "small_area_ties_random": 0.28707070707070703
+    }
+  }
+}

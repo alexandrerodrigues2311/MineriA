@@ -1,0 +1,18 @@
+
+/* One typography scale, from the bundled official gov.br core tokens. */
+:root{--mineria-body:var(--font-size-scale-up-01,16.8px);--mineria-control:var(--font-size-scale-base,14px);--mineria-h3:var(--font-size-scale-up-02,20.16px);--mineria-h2:var(--font-size-scale-up-03,24.192px);--mineria-h1:var(--font-size-scale-up-04,29.036px)}
+body,button,input,select,textarea,h1,h2,h3,.kpis strong{font-family:var(--font-family-base,Rawline),Rawline,'Segoe UI',Arial,sans-serif}
+body,p,li,dd,dt,.title>div:first-child>p:last-child,.banner p{font-size:var(--mineria-body);line-height:1.6}
+h1,.title h1{font-size:var(--mineria-h1);line-height:1.3;letter-spacing:normal;font-weight:600}
+h2,.banner h2{font-size:var(--mineria-h2);line-height:1.4;font-weight:600}
+h3,.verdict-grid strong{font-size:var(--mineria-h3);line-height:1.4;font-weight:600}
+button,.br-button,.tab,table,td,th,th button,.filters label,.filters select,.filters input,.outcome-chips button,.funnel-branches button,.funnel-step span,.caption,.eyebrow,.tag,.pill,small,.fresh small,.fresh b,.product-name small,.kpis span,.kpis small,.funnel-step small,.detail-item span,.detail-item b,.bar-row,.bar-value,.event time,.pagination,#pagecount{font-size:var(--mineria-control);line-height:1.5}
+.kpis strong,.funnel-step strong{font-size:var(--mineria-h1);line-height:1.3}.funnel-branches b{font-size:var(--mineria-h2)}
+.product-name b{font-size:var(--font-size-scale-up-05,34.832px);letter-spacing:normal;white-space:nowrap}.product-name b span{color:#168821;font-weight:800;border-bottom:3px solid #f8cc28}
+.header-actions{display:flex;flex-direction:column;gap:10px;align-items:flex-end}.header-actions .br-button{white-space:nowrap}.br-header{flex-wrap:wrap}.title{gap:24px}nav{flex-wrap:wrap;white-space:normal;overflow:visible}.tab{padding:12px 14px}
+.bid-history{grid-column:1/-1}.chart-legend{display:flex;gap:28px;flex-wrap:wrap;margin:20px 0;font-size:var(--mineria-control)}.chart-legend span{display:flex;align-items:center;gap:8px}.legend-bar{display:inline-block;width:22px;height:14px;background:#1351b4}.legend-line{display:inline-block;width:28px;height:3px;background:#168821}.chart-scroll{overflow-x:auto}.bid-chart{display:block;width:100%;min-width:850px;max-height:550px}.bid-chart text{font-family:Rawline,'Segoe UI',sans-serif;font-size:16px;fill:#344563}.bid-chart .round-label,.bid-chart .bar-label{font-weight:600}.chart-grid{stroke:#dbe4ec;stroke-width:1}.chart-hit{cursor:pointer}.chart-hit:hover rect,.chart-hit:focus rect{fill:#1351b40c;stroke:#1351b4;stroke-width:1}.chart-hit:focus{outline:none}.axis-title{font-weight:600}
+:fullscreen{background:#f5f8fc;overflow:auto}:fullscreen main,body.presentation-mode main{max-width:none}.presentation-mode header{position:sticky;top:0;z-index:20}.presentation-mode main{padding-left:2%;padding-right:2%}
+@media(max-width:780px){.header-actions{align-items:flex-start;width:100%;flex-direction:row;flex-wrap:wrap;justify-content:space-between}.product-name{padding-left:15px}.product-name b{font-size:var(--mineria-h1)}.anm-logo img{width:210px}.title{flex-wrap:wrap}.chart-legend{gap:14px}.bid-chart{max-height:none}}
+
+.overview-story{grid-template-columns:1fr}.overview-story .bid-history{order:-1}#funnel{max-width:900px;margin:auto}.overview-story .panel{min-width:0}
+.notice,.legend,.commercial-check,.source-card p,.timeline .event,.detail-heading .badge,.badge{font-size:var(--mineria-control);line-height:1.5}

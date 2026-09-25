@@ -1,0 +1,382 @@
+{
+  "rounds": [
+    {
+      "round": 1,
+      "n": 499,
+      "win_rate": 0.10821643286573146,
+      "sum": 1740946.51,
+      "median_bid": 4100.995,
+      "median_area": 42.68,
+      "uf_shares": {
+        "Acre": 0.002004008016032064,
+        "Alagoas": 0.006012024048096192,
+        "Amazonas": 0.004008016032064128,
+        "Bahia": 0.05811623246492986,
+        "Ceará": 0.01603206412825651,
+        "Distrito Federal": 0.012024048096192385,
+        "Espírito Santo": 0.06212424849699399,
+        "Goiás": 0.07214428857715431,
+        "Maranhão": 0.006012024048096192,
+        "Minas Gerais": 0.07414829659318638,
+        "Mato Grosso do Sul": 0.02004008016032064,
+        "Mato Grosso": 0.02004008016032064,
+        "Pará": 0.008016032064128256,
+        "Paraíba": 0.022044088176352707,
+        "Pernambuco": 0.02004008016032064,
+        "Piauí": 0.022044088176352707,
+        "Paraná": 0.07014028056112225,
+        "Rio de Janeiro": 0.11222444889779559,
+        "Rio Grande do Norte": 0.018036072144288578,
+        "Rio Grande do Sul": 0.08016032064128256,
+        "Santa Catarina": 0.08216432865731463,
+        "Sergipe": 0.006012024048096192,
+        "São Paulo": 0.20040080160320642,
+        "Tocantins": 0.006012024048096192
+      },
+      "regime_shares": {
+        "Pesquisa": 1.0
+      },
+      "ipca_relative_nov2019": 1.0,
+      "top_ufs": [
+        [
+          "São Paulo",
+          100
+        ],
+        [
+          "Rio de Janeiro",
+          56
+        ],
+        [
+          "Santa Catarina",
+          41
+        ]
+      ],
+      "history_mean": 4.765531062124248
+    },
+    {
+      "round": 2,
+      "n": 6863,
+      "win_rate": 0.26475302345912866,
+      "sum": 150843518.45000002,
+      "median_bid": 7315.0,
+      "median_area": 877.0199999999999,
+      "uf_shares": {
+        "Alagoas": 0.0037884307154305696,
+        "Amazonas": 0.01806790033513041,
+        "Amapá": 0.0013113798630336587,
+        "Bahia": 0.1758706105201807,
+        "Ceará": 0.07256301908786245,
+        "Distrito Federal": 0.0008742532420224392,
+        "Espírito Santo": 0.022730584292583417,
+        "Goiás": 0.0868424887075623,
+        "Maranhão": 0.0002914177473408131,
+        "Minas Gerais": 0.1360920880081597,
+        "Mato Grosso do Sul": 0.005828354946816261,
+        "Mato Grosso": 0.05682646073145855,
+        "Pará": 0.021564913303220166,
+        "Paraíba": 0.014425178493370246,
+        "Pernambuco": 0.022439166545242605,
+        "Piauí": 0.028413230365729274,
+        "Paraná": 0.035990091796590414,
+        "Rio de Janeiro": 0.02520763514498033,
+        "Rio Grande do Norte": 0.016902229345767156,
+        "Rondônia": 0.013550925251347807,
+        "Rio Grande do Sul": 0.05566078974209529,
+        "Santa Catarina": 0.07926562727670115,
+        "Sergipe": 0.010199621156928457,
+        "São Paulo": 0.05566078974209529,
+        "Tocantins": 0.03963281363835058
+      },
+      "regime_shares": {
+        "Pesquisa": 0.960950021856331,
+        "Lavra-Concessão": 0.03904997814366895
+      },
+      "ipca_relative_nov2019": 1.0,
+      "top_ufs": [
+        [
+          "Bahia",
+          1207
+        ],
+        [
+          "Minas Gerais",
+          934
+        ],
+        [
+          "Goiás",
+          596
+        ]
+      ],
+      "history_mean": 10.522074894361067
+    },
+    {
+      "round": 3,
+      "n": 2748,
+      "win_rate": 0.3111353711790393,
+      "sum": 64489149.0,
+      "median_bid": 15000.0,
+      "median_area": 307.5900000000001,
+      "uf_shares": {
+        "Acre": 0.001455604075691412,
+        "Alagoas": 0.005094614264919942,
+        "Amazonas": 0.001819505094614265,
+        "Bahia": 0.041848617176128096,
+        "Ceará": 0.04294032023289665,
+        "Distrito Federal": 0.008733624454148471,
+        "Espírito Santo": 0.005094614264919942,
+        "Goiás": 0.33151382823871905,
+        "Minas Gerais": 0.12809315866084425,
+        "Mato Grosso do Sul": 0.04985443959243086,
+        "Mato Grosso": 0.005822416302765648,
+        "Pará": 0.010553129548762736,
+        "Paraíba": 0.006550218340611353,
+        "Pernambuco": 0.023289665211062592,
+        "Piauí": 0.00363901018922853,
+        "Paraná": 0.03165938864628821,
+        "Rio de Janeiro": 0.002183406113537118,
+        "Rio Grande do Norte": 0.03056768558951965,
+        "Rondônia": 0.00727802037845706,
+        "Rio Grande do Sul": 0.1477438136826783,
+        "Santa Catarina": 0.012736535662299854,
+        "Sergipe": 0.011644832605531296,
+        "São Paulo": 0.0735080058224163,
+        "Tocantins": 0.01601164483260553,
+        "Amapá": 0.000363901018922853
+      },
+      "regime_shares": {
+        "Pesquisa": 0.9647016011644832,
+        "Lavra-Concessão": 0.03529839883551674
+      },
+      "ipca_relative_nov2019": 1.0431109119661146,
+      "top_ufs": [
+        [
+          "Goiás",
+          911
+        ],
+        [
+          "Rio Grande do Sul",
+          406
+        ],
+        [
+          "Minas Gerais",
+          352
+        ]
+      ],
+      "history_mean": 8.782751091703057
+    },
+    {
+      "round": 4,
+      "n": 1650,
+      "win_rate": 0.28606060606060607,
+      "sum": 33961315.0,
+      "median_bid": 10351.0,
+      "median_area": 50.0,
+      "uf_shares": {
+        "Acre": 0.0024242424242424242,
+        "Alagoas": 0.009696969696969697,
+        "Amazonas": 0.012121212121212121,
+        "Amapá": 0.0030303030303030303,
+        "Bahia": 0.040606060606060604,
+        "Ceará": 0.05515151515151515,
+        "Distrito Federal": 0.0006060606060606061,
+        "Espírito Santo": 0.04606060606060606,
+        "Goiás": 0.05393939393939394,
+        "Maranhão": 0.010303030303030303,
+        "Minas Gerais": 0.1593939393939394,
+        "Mato Grosso do Sul": 0.008484848484848486,
+        "Mato Grosso": 0.06424242424242424,
+        "Pará": 0.06606060606060606,
+        "Paraíba": 0.014545454545454545,
+        "Pernambuco": 0.04181818181818182,
+        "Piauí": 0.03636363636363636,
+        "Paraná": 0.029696969696969697,
+        "Rio de Janeiro": 0.03939393939393939,
+        "Rio Grande do Norte": 0.024242424242424242,
+        "Rondônia": 0.03090909090909091,
+        "Rio Grande do Sul": 0.11575757575757575,
+        "Santa Catarina": 0.06,
+        "Sergipe": 0.006060606060606061,
+        "São Paulo": 0.02666666666666667,
+        "Tocantins": 0.04242424242424243
+      },
+      "regime_shares": {
+        "Pesquisa": 1.0
+      },
+      "ipca_relative_nov2019": 1.0431109119661146,
+      "top_ufs": [
+        [
+          "Minas Gerais",
+          263
+        ],
+        [
+          "Rio Grande do Sul",
+          191
+        ],
+        [
+          "Pará",
+          109
+        ]
+      ],
+      "history_mean": 6.453939393939394
+    },
+    {
+      "round": 5,
+      "n": 4465,
+      "win_rate": 0.23964165733482642,
+      "sum": 84535544.0,
+      "median_bid": 10500.0,
+      "median_area": 841.7999999999998,
+      "uf_shares": {
+        "Acre": 0.0006718924972004479,
+        "Alagoas": 0.0011198208286674132,
+        "Amazonas": 0.06562150055991041,
+        "Amapá": 0.0022396416573348264,
+        "Bahia": 0.029787234042553193,
+        "Ceará": 0.07346024636058231,
+        "Distrito Federal": 0.0008958566629339306,
+        "Espírito Santo": 0.05016797312430011,
+        "Goiás": 0.0837625979843225,
+        "Maranhão": 0.04098544232922732,
+        "Minas Gerais": 0.20559910414333707,
+        "Mato Grosso do Sul": 0.018365061590145577,
+        "Mato Grosso": 0.020156774916013438,
+        "Pará": 0.024188129899216124,
+        "Paraíba": 0.005375139977603583,
+        "Pernambuco": 0.012318029115341545,
+        "Piauí": 0.0761478163493841,
+        "Paraná": 0.013885778275475923,
+        "Rio de Janeiro": 0.014557670772676373,
+        "Rio Grande do Norte": 0.07278835386338185,
+        "Rondônia": 0.0219484882418813,
+        "Roraima": 0.0022396416573348264,
+        "Rio Grande do Sul": 0.03381858902575588,
+        "Santa Catarina": 0.061142217245240764,
+        "Sergipe": 0.0029115341545352742,
+        "São Paulo": 0.030011198208286675,
+        "Tocantins": 0.03583426651735722
+      },
+      "regime_shares": {
+        "Pesquisa": 0.9923852183650615,
+        "Lavra-Concessão": 0.00761478163493841
+      },
+      "ipca_relative_nov2019": 1.0431109119661146,
+      "top_ufs": [
+        [
+          "Minas Gerais",
+          918
+        ],
+        [
+          "Goiás",
+          374
+        ],
+        [
+          "Piauí",
+          340
+        ]
+      ],
+      "history_mean": 8.720044792833146
+    },
+    {
+      "round": 8,
+      "n": 4950,
+      "win_rate": 0.6585858585858586,
+      "sum": 572033653.3299999,
+      "median_bid": 31599.445,
+      "median_area": 660.2250000000001,
+      "uf_shares": {
+        "Ceará": 0.043838383838383836,
+        "Espírito Santo": 0.049494949494949494,
+        "Paraná": 0.06101010101010101,
+        "Rio Grande do Sul": 0.09272727272727273,
+        "Santa Catarina": 0.042222222222222223,
+        "São Paulo": 0.05191919191919192,
+        "Minas Gerais": 0.13656565656565656,
+        "Pernambuco": 0.022222222222222223,
+        "Rio Grande do Norte": 0.030505050505050504,
+        "Goiás": 0.11292929292929293,
+        "Distrito Federal": 0.0012121212121212121,
+        "Tocantins": 0.03090909090909091,
+        "Mato Grosso": 0.07535353535353535,
+        "Sergipe": 0.008282828282828282,
+        "Amazonas": 0.014343434343434344,
+        "Rondônia": 0.008686868686868687,
+        "Rio de Janeiro": 0.021616161616161617,
+        "Bahia": 0.06909090909090909,
+        "Paraíba": 0.04080808080808081,
+        "Piauí": 0.025454545454545455,
+        "Mato Grosso do Sul": 0.0026262626262626263,
+        "Alagoas": 0.0034343434343434343,
+        "Roraima": 0.01191919191919192,
+        "Pará": 0.030505050505050504,
+        "Maranhão": 0.011515151515151515,
+        "Amapá": 0.0006060606060606061,
+        "Acre": 0.00020202020202020202
+      },
+      "regime_shares": {
+        "Lavra-Concessão": 0.11616161616161616,
+        "Pesquisa": 0.8838383838383839
+      },
+      "ipca_relative_nov2019": 1.2805762096468025,
+      "top_ufs": [
+        [
+          "Minas Gerais",
+          676
+        ],
+        [
+          "Goiás",
+          559
+        ],
+        [
+          "Rio Grande do Sul",
+          459
+        ]
+      ],
+      "history_mean": 13.508686868686869
+    }
+  ],
+  "experiment": {
+    "status": "exploratory_round_context",
+    "features_added": [
+      "portfolio_log_n",
+      "portfolio_log_area_mediana",
+      "portfolio_uf_hhi",
+      "portfolio_historia_media",
+      "portfolio_regime_Pesquisa",
+      "oferta_mesmo_estado",
+      "idade_processo",
+      "ipca_indice"
+    ],
+    "target": "log1p of positive bids deflated to November 2019; reconverted with known pre-cutoff index",
+    "limitations": [
+      "Portfolio composition reconstructed from current final commercial rows, not original annex vintages. Withdrawals can change it: exploratory sensitivity only.",
+      "Six commercial rounds do not identify independent causal effects of changing rules.",
+      "Bidding floors and deadlines unverified for all final edital versions; kept null, not invented.",
+      "IPCA monthly series 433, November preceding conservative annual cutoff, excludes unreleased December.",
+      "2024 test already inspected; no prospective claim."
+    ],
+    "evaluations": {
+      "validation5": {
+        "auc": 0.6839930904436154,
+        "brier": 0.21482159195417172,
+        "rmsle": 1.5861400837513697,
+        "mae": 74498.57077589768,
+        "train_n": 10110,
+        "test_n": 4465
+      },
+      "retrospective8": {
+        "auc": 0.7074236758993719,
+        "brier": 0.255128644466613,
+        "rmsle": 1.821875884546637,
+        "mae": 162858.7466857235,
+        "train_n": 16223,
+        "test_n": 4950
+      }
+    },
+    "drift": {
+      "uf_total_variation": 0.1564526622153741,
+      "historical_positive_rate": 0.26305084745762713,
+      "round8_positive_rate": 0.6585858585858586,
+      "historical_median_positive": 10100.0,
+      "round8_median_positive": 31599.445
+    }
+  }
+}
