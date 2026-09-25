@@ -1,0 +1,11 @@
+# MinerIA V4 — utilidade operacional e perfis
+
+Protocolo registrado antes desta execução. Avaliação retrospectiva: a rodada 8 já foi examinada. Nenhuma promessa de nota, causalidade ou previsão prospectiva.
+
+1. Manter cortes anuais V3 para comparação limpa; adicionar marcos observáveis antes do corte: disponibilidade (2275/328/329), intervalo desde primeiro/último marco e contexto administrativo anterior ao marco. Contexto do nome do evento não é fase jurídica certificada. Ausência de marco é informada, não imputada como zero dias. Não usar destino, lance ou evento posterior como atributo.
+2. Priorizar 20% das áreas para revisão. Comparar HGB básico, HGB trajetória, HGB marcos, Extra Trees marcos, frequência histórica por UF e regra de maior área. Alvos separados: lance positivo e resultado Livre. Seleção pela média do lift em 20% nas validações 4 e 5; avaliar 8 apenas depois. Reportar precisão, captura e referências. Limiar indicativo de utilidade: lift >1,10 nas duas validações e em 8, com ganho frente a regras simples; não equivale a benefício em implantação.
+3. Regressão: comparar Extra Trees trajetória e marcos com parâmetros V3 fixos; seleção RMSLE das validações. Preservar MAE e R², inclusive resultados ruins.
+4. Agrupamento não supervisionado: KMeans e mistura gaussiana diagonal, k=3,5,8, em dez dimensões numéricas de área e trajetória, sem destinos ou lances. Log1p para contagens/durações e StandardScaler ajustado só no treino. Um registro por processo no ajuste (último anterior à rodada 8), removendo processos presentes em 8. Seleção por silhouette do treino (amostra fixa 1500), estabilidade em cinco reamostragens de 80% (ARI), menor grupo >=3%. Requisitos indicativos: silhouette >=0,20 e ARI médio >=0,75. Caracterizar destinos apenas depois, como descrição externa; não escolher clusters por receita.
+5. Congelar resultados, código, atributos derivados, versões e hashes. Intervalos bootstrap por processo para ganho de triagem em 8. Preservar todas as tentativas. Sem explorar indefinidamente a rodada 8 até obter número conveniente.
+
+Fontes metodológicas: https://scikit-learn.org/stable/modules/clustering.html e https://scikit-learn.org/stable/modules/mixture.html . Uso pretendido: organizar revisão administrativa e descrever perfis; modelos não determinam lance ótimo, valor mineral ou receita realizada.
