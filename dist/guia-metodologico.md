@@ -1,10 +1,10 @@
-# LanceMineral IA — Inteligência para a Gestão de Leilões Minerais
+# MinerIA — Inteligência para a Gestão de Leilões Minerais
 
 Versão de pesquisa: 24 de setembro de 2026. Projeto independente, desenvolvido com dados abertos da ANM. Identidade visual baseada no logo indicado pelo usuário e no pacote gov.br Design System 3.7.0. Não é um serviço oficial da Agência.
 
 ## 1. Finalidade
 
-O LanceMineral IA reúne exploração de resultados, histórico administrativo, localização e experimentos de aprendizado de máquina para apoiar decisões sobre a disponibilidade de áreas minerais. A aplicação permite avaliar onde houve interesse, como a composição das ofertas mudou e quais limitações impedem transformar uma estimativa em decisão de orçamento ou de lance.
+O MinerIA reúne exploração de resultados, histórico administrativo, localização e experimentos de aprendizado de máquina para apoiar decisões sobre a disponibilidade de áreas minerais. A aplicação permite avaliar onde houve interesse, como a composição das ofertas mudou e quais limitações impedem transformar uma estimativa em decisão de orçamento ou de lance.
 
 O produto entrega uma base relacional, um painel interativo e experimentos reproduzíveis. Não entrega uma avaliação de reservas, viabilidade econômica, licenciamento, lance ótimo ou receita efetivamente recebida.
 
@@ -136,7 +136,7 @@ Os arquivos JSON dos experimentos guardam métricas e limitações. O SQLite con
 
 ## Ampliação: todas as rodadas e estoque completo
 
-A interface passa a se chamar **LanceMineral IA — Inteligência para a Gestão de Leilões Minerais**. A visão geral começa pelos lances vencedores acumulados e organiza as rodadas da 8ª à 1ª. O acumulado é calculado em ordem cronológica e apenas apresentado em ordem inversa. Os valores são nominais e não comprovam pagamentos.
+A interface passa a se chamar **MinerIA — Inteligência para a Gestão de Leilões Minerais**. A visão geral começa pelos lances vencedores acumulados e organiza as rodadas da 8ª à 1ª. O acumulado é calculado em ordem cronológica e apenas apresentado em ordem inversa. Os valores são nominais e não comprovam pagamentos.
 
 As oito rodadas permanecem visíveis: a 6ª possui avaliação social, a 7ª está cancelada e não recebe métricas financeiras iguais a zero. A exploração tem filtros específicos de processo (DSProcesso) e substância, além da busca livre, do estado, município e resultado. O DSProcesso usa seis dígitos antes da barra, completados com zeros à esquerda, e ano de quatro dígitos: `000.000/0000`.
 
@@ -157,3 +157,16 @@ O treinamento permanece temporal e restrito às seis rodadas comerciais. A cober
 - DIPEM: Declaração de Investimento em Pesquisa Mineral.
 
 A atualização foi agendada diariamente às 8h no aplicativo. Depende do computador e do aplicativo disponíveis. O navegador procura novas versões publicadas a cada cinco minutos; isso não corresponde a lances em tempo real. Revisões nas fontes preservam as extrações anteriores e desabilitam previsões antigas até revisão. Novas rodadas exigem conferir regras, fases e esquema antes de publicar.
+
+
+## Revisão visual e leitura das rodadas especiais
+
+O nome da interface passa a ser **MinerIA**, com IA em destaque e subtítulo “Inteligência para a gestão de leilões minerais”. O gráfico usa barras para o acréscimo de cada rodada e uma linha para o total acumulado, na mesma escala em reais. A apresentação mantém a ordem da 8ª à 1ª; o cálculo do acumulado permanece cronológico, da 1ª até cada rodada.
+
+A 6ª rodada foi destinada à Permissão de Lavra Garimpeira e utilizou avaliação social para definir prioridade de requerimento, por critérios objetivos. Requerimento não equivale a título concedido. A notícia oficial de lançamento descreve a modalidade e critérios: https://www.gov.br/anm/pt-br/anm-lanca-sexta-rodada-de-oferta-publica-de-areas-para-mineracao
+
+A 7ª rodada corresponde ao Edital nº 2/2022, cancelado pela Decisão nº 6530084/GAB-DG/ANM/2023, publicada em 22/02/2023 e referendada em 27/03/2023. A ata confirma o ato, sem detalhar a motivação técnica: https://www.gov.br/anm/pt-br/acesso-a-informacao/institucional/reunioes-da-diretoria-colegiada/ata-49a-reuniao-ordinaria-publica-diretoria-colegiada.pdf
+
+Nos dois casos, a marca 0* no gráfico significa acréscimo nulo ao acumulado de lances comparáveis; não significa arrematação por R$ 0. A linha mantém o total da 5ª rodada. As fichas e métricas comerciais continuam indicando “não se aplica”. A tabela acessível sob o gráfico permite conferir os valores.
+
+O botão Tela cheia permite expandir o painel, com saída pelo mesmo botão ou Esc. Quando o navegador não autoriza tela cheia, o painel oferece modo ampliado dentro da janela e informa essa limitação. A tipografia utiliza Rawline da distribuição oficial e os tokens do Design System gov.br 3.7.0, com texto de 16,8 px, controles de 14 px e títulos na escala oficial.

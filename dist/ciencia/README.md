@@ -81,3 +81,5 @@ Não há nomes de autores no material experimental para que a versão destinada 
 ## Verificação realizada nesta entrega
 
 A execução `--completo` foi concluída no ambiente registrado. Os seis candidatos, a escolha dos modelos, as quatro métricas da 8ª rodada e a cobertura de 62,3313% foram reproduzidos. Houve diferenças apenas de arredondamento numérico, dentro da tolerância de uma parte por milhão. O resultado integral está em `reproducao_resultado.json`. Isso comprova reprodução computacional local; não substitui validação futura ou revisão independente.
+
+A interface atual se chama **MinerIA**. Os nomes LanceMineral/GeoLance em arquivos históricos identificam versões anteriores do mesmo experimento. A revisão visual não altera os dados ou as métricas congeladas.
