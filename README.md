@@ -1,4 +1,4 @@
-# MineriA
+# Miner IA
 
 Inteligência para leilões minerais. Painel estático com dados abertos, avaliações retrospectivas de aprendizado de máquina e exploração de áreas.
 
