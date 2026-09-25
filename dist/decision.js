@@ -5,14 +5,15 @@ async function ensureAreas(){
   if(areasPromise)return areasPromise;
   areasPromise=(async()=>{try{
     $('status').textContent='Carregando as áreas das oito rodadas…';
-    for(let i=0;(!data||!overviewData)&&i<100;i++)await new Promise(r=>setTimeout(r,100));
+    window.explorerLoading?.('Aguardando os resumos e carregando as áreas. Em conexão lenta, esta etapa pode levar mais tempo.');
+    await Promise.all([window.metadataReady,window.overviewReady]);
     if(!data||!overviewData)throw Error('A base de resumo não carregou. Use Verificar nova versão.');
     const revision=overviewData.areas_revision;
     const rows=await fastJSON('areas.json?v='+revision);if(rows.length!==overviewData.total_included)throw Error('Versões incompatíveis. Verifique a atualização.');
     data.rows=rows;overviewData.rows=rows;window.areasRevision=revision;window.areasReady=true;
     const uf=$('state').value;$('state').innerHTML='<option value="">Todos os estados</option>'+[...new Set(rows.map(r=>r.u))].sort().map(s=>`<option>${esc(s)}</option>`).join('');$('state').value=uf;
-    render();refreshInsights();$('status').textContent='';
-  }catch(e){$('status').textContent=e.message;throw e}finally{areasPromise=null}})();return areasPromise;
+    render();refreshInsights();$('status').textContent='';window.explorerLoaded?.();
+  }catch(e){$('status').textContent=e.message;window.explorerFailed?.(e.message);throw e}finally{areasPromise=null}})();return areasPromise;
 }
 const oldView=view;view=function(name){oldView(name);activateSection(name)};
 document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>activateSection(b.dataset.view)));

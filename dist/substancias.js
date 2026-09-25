@@ -10,5 +10,5 @@ window.normalizeMinerals=function(data,url=''){
  function walk(o){if(!o||typeof o!=='object')return;if(Array.isArray(o)){o.forEach(walk);return}for(const k of Object.keys(o)){if(['sub','substancias','substancias_cadastradas','Substancia'].includes(k)&&typeof o[k]==='string'){o[k+'_original']=o[k];o[k]=names(o[k])}else if(!k.endsWith('_original'))walk(o[k])}}
  walk(data);return data;
 };
-const nativeFetch=window.fetch;window.fetch=async function(input,options){const response=await nativeFetch(input,options);const u=new URL(typeof input==='string'?input:input.url,location.href);if(u.origin===location.origin&&u.pathname.endsWith('.json')){const parse=response.json.bind(response);response.json=async()=>normalizeMinerals(await parse(),u.href)}return response};
+const nativeFetch=window.fetch;window.fetch=async function(input,options){const response=await nativeFetch(input,{...options,signal:options?.signal||AbortSignal.timeout(45000)});const u=new URL(typeof input==='string'?input:input.url,location.href);if(u.origin===location.origin&&u.pathname.endsWith('.json')){const parse=response.json.bind(response);response.json=async()=>normalizeMinerals(await parse(),u.href)}return response};
 })();
